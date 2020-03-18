@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,9 +15,18 @@
 		EF90B383241FB0A6001AAA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF90B382241FB0A6001AAA39 /* Assets.xcassets */; };
 		EF90B386241FB0A6001AAA39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF90B384241FB0A6001AAA39 /* LaunchScreen.storyboard */; };
 		EF90B389241FB0A6001AAA39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF90B388241FB0A6001AAA39 /* main.m */; };
+		EF90B398241FB6B8001AAA39 /* UserInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF90B397241FB6B8001AAA39 /* UserInfoTableViewController.m */; };
+		EF90B39A241FB75E001AAA39 /* UserDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF90B399241FB75E001AAA39 /* UserDetailCell.xib */; };
+		EF90B39D241FB7F8001AAA39 /* UserDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF90B39C241FB7F8001AAA39 /* UserDetailTableViewCell.m */; };
+		EF90B3A2241FE092001AAA39 /* Pods_GetStartedWithPods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688CEA16DB8EB0F43DBC3553 /* Pods_GetStartedWithPods.framework */; };
+		EF90B3AE24200107001AAA39 /* UserPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF90B3AD24200107001AAA39 /* UserPostsViewController.m */; };
+		EF90B3B0242001E3001AAA39 /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF90B3AF242001E3001AAA39 /* PostCell.xib */; };
+		EF90B3B324200288001AAA39 /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF90B3B224200288001AAA39 /* PostTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54394427A63DFF96D747B92E /* Pods-GetStartedWithPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetStartedWithPods.debug.xcconfig"; path = "Target Support Files/Pods-GetStartedWithPods/Pods-GetStartedWithPods.debug.xcconfig"; sourceTree = "<group>"; };
+		688CEA16DB8EB0F43DBC3553 /* Pods_GetStartedWithPods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GetStartedWithPods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF90B370241FB0A3001AAA39 /* GetStartedWithPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetStartedWithPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF90B373241FB0A3001AAA39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EF90B374241FB0A3001AAA39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +40,18 @@
 		EF90B385241FB0A6001AAA39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF90B387241FB0A6001AAA39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF90B388241FB0A6001AAA39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF90B38F241FB1DB001AAA39 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF90B396241FB6B8001AAA39 /* UserInfoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewController.h; sourceTree = "<group>"; };
+		EF90B397241FB6B8001AAA39 /* UserInfoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewController.m; sourceTree = "<group>"; };
+		EF90B399241FB75E001AAA39 /* UserDetailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailCell.xib; sourceTree = "<group>"; };
+		EF90B39B241FB7F8001AAA39 /* UserDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailTableViewCell.h; sourceTree = "<group>"; };
+		EF90B39C241FB7F8001AAA39 /* UserDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailTableViewCell.m; sourceTree = "<group>"; };
+		EF90B3AC24200107001AAA39 /* UserPostsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPostsViewController.h; sourceTree = "<group>"; };
+		EF90B3AD24200107001AAA39 /* UserPostsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPostsViewController.m; sourceTree = "<group>"; };
+		EF90B3AF242001E3001AAA39 /* PostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		EF90B3B124200288001AAA39 /* PostTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
+		EF90B3B224200288001AAA39 /* PostTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostTableViewCell.m; sourceTree = "<group>"; };
+		FE32741AFC610F58E5AC6337 /* Pods-GetStartedWithPods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GetStartedWithPods.release.xcconfig"; path = "Target Support Files/Pods-GetStartedWithPods/Pods-GetStartedWithPods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,17 +59,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF90B3A2241FE092001AAA39 /* Pods_GetStartedWithPods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		719CDDAB709104B63F245328 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF90B38F241FB1DB001AAA39 /* AFNetworking.framework */,
+				688CEA16DB8EB0F43DBC3553 /* Pods_GetStartedWithPods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7995C7F954FB4C8CE7F6CFDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54394427A63DFF96D747B92E /* Pods-GetStartedWithPods.debug.xcconfig */,
+				FE32741AFC610F58E5AC6337 /* Pods-GetStartedWithPods.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF36ACD72420FF9800F88E41 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EF90B3B124200288001AAA39 /* PostTableViewCell.h */,
+				EF90B3B224200288001AAA39 /* PostTableViewCell.m */,
+				EF90B39B241FB7F8001AAA39 /* UserDetailTableViewCell.h */,
+				EF90B39C241FB7F8001AAA39 /* UserDetailTableViewCell.m */,
+				EF90B399241FB75E001AAA39 /* UserDetailCell.xib */,
+				EF90B3AF242001E3001AAA39 /* PostCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EF90B367241FB0A3001AAA39 = {
 			isa = PBXGroup;
 			children = (
 				EF90B372241FB0A3001AAA39 /* GetStartedWithPods */,
 				EF90B371241FB0A3001AAA39 /* Products */,
+				7995C7F954FB4C8CE7F6CFDA /* Pods */,
+				719CDDAB709104B63F245328 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,20 +118,41 @@
 		EF90B372241FB0A3001AAA39 /* GetStartedWithPods */ = {
 			isa = PBXGroup;
 			children = (
+				EF36ACD72420FF9800F88E41 /* Views */,
+				EF90B3A8241FE67B001AAA39 /* Storyboards */,
+				EF90B3A7241FE65B001AAA39 /* View Controllers */,
 				EF90B373241FB0A3001AAA39 /* AppDelegate.h */,
 				EF90B374241FB0A3001AAA39 /* AppDelegate.m */,
 				EF90B376241FB0A3001AAA39 /* SceneDelegate.h */,
 				EF90B377241FB0A3001AAA39 /* SceneDelegate.m */,
-				EF90B379241FB0A3001AAA39 /* ViewController.h */,
-				EF90B37A241FB0A3001AAA39 /* ViewController.m */,
-				EF90B37C241FB0A3001AAA39 /* Main.storyboard */,
 				EF90B382241FB0A6001AAA39 /* Assets.xcassets */,
-				EF90B384241FB0A6001AAA39 /* LaunchScreen.storyboard */,
 				EF90B387241FB0A6001AAA39 /* Info.plist */,
 				EF90B388241FB0A6001AAA39 /* main.m */,
 				EF90B37F241FB0A3001AAA39 /* GetStartedWithPods.xcdatamodeld */,
 			);
 			path = GetStartedWithPods;
+			sourceTree = "<group>";
+		};
+		EF90B3A7241FE65B001AAA39 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF90B379241FB0A3001AAA39 /* ViewController.h */,
+				EF90B37A241FB0A3001AAA39 /* ViewController.m */,
+				EF90B396241FB6B8001AAA39 /* UserInfoTableViewController.h */,
+				EF90B397241FB6B8001AAA39 /* UserInfoTableViewController.m */,
+				EF90B3AC24200107001AAA39 /* UserPostsViewController.h */,
+				EF90B3AD24200107001AAA39 /* UserPostsViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EF90B3A8241FE67B001AAA39 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF90B37C241FB0A3001AAA39 /* Main.storyboard */,
+				EF90B384241FB0A6001AAA39 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF90B38C241FB0A6001AAA39 /* Build configuration list for PBXNativeTarget "GetStartedWithPods" */;
 			buildPhases = (
+				C0EF66814F0EFBD52CF2DA97 /* [CP] Check Pods Manifest.lock */,
 				EF90B36C241FB0A3001AAA39 /* Sources */,
 				EF90B36D241FB0A3001AAA39 /* Frameworks */,
 				EF90B36E241FB0A3001AAA39 /* Resources */,
+				F0DA2C3A8D8F44A1D0D9C841 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +215,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF90B386241FB0A6001AAA39 /* LaunchScreen.storyboard in Resources */,
+				EF90B39A241FB75E001AAA39 /* UserDetailCell.xib in Resources */,
+				EF90B3B0242001E3001AAA39 /* PostCell.xib in Resources */,
 				EF90B383241FB0A6001AAA39 /* Assets.xcassets in Resources */,
 				EF90B37E241FB0A3001AAA39 /* Main.storyboard in Resources */,
 			);
@@ -144,16 +224,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C0EF66814F0EFBD52CF2DA97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GetStartedWithPods-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0DA2C3A8D8F44A1D0D9C841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetStartedWithPods/Pods-GetStartedWithPods-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GetStartedWithPods/Pods-GetStartedWithPods-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GetStartedWithPods/Pods-GetStartedWithPods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF90B36C241FB0A3001AAA39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EF90B389241FB0A6001AAA39 /* main.m in Sources */,
+				EF90B3B324200288001AAA39 /* PostTableViewCell.m in Sources */,
+				EF90B39D241FB7F8001AAA39 /* UserDetailTableViewCell.m in Sources */,
 				EF90B381241FB0A3001AAA39 /* GetStartedWithPods.xcdatamodeld in Sources */,
 				EF90B37B241FB0A3001AAA39 /* ViewController.m in Sources */,
+				EF90B3AE24200107001AAA39 /* UserPostsViewController.m in Sources */,
 				EF90B375241FB0A3001AAA39 /* AppDelegate.m in Sources */,
 				EF90B378241FB0A3001AAA39 /* SceneDelegate.m in Sources */,
+				EF90B398241FB6B8001AAA39 /* UserInfoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +417,7 @@
 		};
 		EF90B38D241FB0A6001AAA39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54394427A63DFF96D747B92E /* Pods-GetStartedWithPods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,7 +427,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = null.GetStartedWithPods;
+				PRODUCT_BUNDLE_IDENTIFIER = thiisunique.GetStartedWithPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,6 +435,7 @@
 		};
 		EF90B38E241FB0A6001AAA39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE32741AFC610F58E5AC6337 /* Pods-GetStartedWithPods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,7 +445,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = null.GetStartedWithPods;
+				PRODUCT_BUNDLE_IDENTIFIER = thiisunique.GetStartedWithPods;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
